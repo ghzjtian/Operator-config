@@ -7,7 +7,7 @@ import { NotEqual } from "./not-equal";
 import { OperatorConfig } from "./operator-config.interface";
 import { Operator } from "./operator.model";
 
-export class operatorFactory {
+export class OperatorFactory {
 
   makeOperator(operatorConfig: OperatorConfig): Operator {
     const errorMessage = `This symbol(${operatorConfig.operatorSymbol}) not match any operator!`;

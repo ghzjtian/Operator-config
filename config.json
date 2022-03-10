@@ -1,19 +1,34 @@
 {
+  "promptMessage":"The following leftPower first level array is 'or', and the second level array is 'and' logic.",
   "leftPower": [
-    {
-      "operatorSymbol": ">=",
-      "value": "100",
-      "prompt":"'operatorSymbol' support follow symbols: [>, >= , <, <=, =, !=]"
-    },
-    {
-      "operatorSymbol": "<=",
-      "value": "200"
-    }
+    [
+      {
+        "operatorSymbol": ">=",
+        "value": "100",
+        "promptMessage":"'operatorSymbol' support follow symbols: [>, >= , <, <=, =, !=]"
+      },
+      {
+        "operatorSymbol": "<=",
+        "value": "200"
+      }
+    ],
+    [
+      {
+        "operatorSymbol": ">=",
+        "value": "400"
+      },
+      {
+        "operatorSymbol": "<=",
+        "value": "500"
+      }
+    ]
   ],
   "rightPower": [
-    {
-      "operatorSymbol": "=",
-      "value": "1"
-    }
+    [
+      {
+        "operatorSymbol": "=",
+        "value": "1"
+      }
+    ]
   ]
 }
