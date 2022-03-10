@@ -1,0 +1,19 @@
+{
+  "leftPower": [
+    {
+      "operatorSymbol": ">=",
+      "value": "100",
+      "prompt":"'operatorSymbol' support follow symbols: [>, >= , <, <=, =, !=]"
+    },
+    {
+      "operatorSymbol": "<=",
+      "value": "200"
+    }
+  ],
+  "rightPower": [
+    {
+      "operatorSymbol": "=",
+      "value": "1"
+    }
+  ]
+}
